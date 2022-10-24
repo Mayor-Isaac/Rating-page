@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container">
+      <div class="rate">
+      <div class="star-icon bg--m-grey d-flex hw-50">
+        <img src="./images/icon-star.svg" alt="star-icon" />
+      </div>
+      <h1 class="text-white">How did we do?</h1>
+
+      <p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+
+      <div class="rating d-flex">
+        <div class="number hw-50 d-flex bg--m-grey number--1">1</div>
+        <div class="number hw-50 d-flex bg--m-grey number--2">2</div
+        ><div class="number hw-50 d-flex bg--m-grey number--3">3</div>
+        <div class="number hw-50 d-flex bg--m-grey number--4">4</div
+        >
+        <div class="number hw-50 d-flex bg--m-grey number--5">5</div>
+      </div>
+      <div class="submit bg--primary text-white">Submit</div>
+    </div>
+
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+ <div class="thank-you d-none">
+  <img src="./images/illustration-thank-you.svg" alt="illustration-thank-you">
+  <h2 class=" bg--m-grey">You selected <span class="rate-number">0</span> out of 5</h2>
+  <h1 class="text-white">Thank you!</h1>
+       <h2> We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</h2>
+    </div>
+      <!-- Thank you state end **-->
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Mayor Idyllic</a>.
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
